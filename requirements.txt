@@ -1,0 +1,18 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+ultralytics
+scikit-learn
+scikit-image
+opencv-python-headless
+pandas
+numpy<2.0.0
+matplotlib
+seaborn
+shap
+joblib
+tqdm
+jupyter
+ipykernel
+requests
+Pillow

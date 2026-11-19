@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+venv*/
+env/
+env*/
+.venv/
+ENV/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Training Runs & Ultralytics Cache
+runs/
+**/runs/
+wandb/
+*.log
+
+# Build PPT & Build Report Scripts
+scripts/generate_pptx.py
+scripts/build_full_report.py
+*build*report*
+*generate*pptx*
+
+# Generated Presentation & Report Files
+*.docx
+*.pptx
+docs/*.docx
+docs/*.pptx
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+data/
+docs/
