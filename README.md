@@ -34,21 +34,6 @@ An automated computer vision system for Indian Railways track safety monitoring:
 │   ├── 01_baseline_classification.ipynb  # Module 1 interactive walkthrough
 │   └── 02_defect_segmentation_demo.ipynb # Module 2 interactive segmentation demo
 │
-├── docs/                             # Academic Deliverables & Official Report
-│   ├── Railway_Track_Fault_Detection_and_Segmentation_Report.docx # 40-page formal report (Times New Roman 12pt justified)
-│   ├── Railway_Track_Fault_Detection_and_Segmentation_Report.md   # Report markdown source
-│   ├── Presentation_Slides.pptx      # Formal 16:9 defense presentation deck
-│   ├── Presentation_Slides.md        # Presentation talk tracks & slides source
-│   └── images/                       # Evaluation plots & detection overlays
-│       ├── confusion_matrix.png
-│       ├── roc_curve.png
-│       ├── shap_feature_importance.png
-│       ├── shap_beeswarm.png
-│       ├── segmentation_samples.png
-│       ├── model_comparison.png
-│       ├── segmentation_prediction.png
-│       └── segmentation_prediction_crack.png
-│
 ├── models/                           # Trained Model Artifacts
 │   ├── random_forest_model.pkl       # Trained Random Forest classifier
 │   ├── scaler.pkl                    # Feature StandardScaler
